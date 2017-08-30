@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  'This is the title: it contains a colon'
 author:
 - name: Author One
