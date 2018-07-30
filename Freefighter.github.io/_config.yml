@@ -1,4 +1,0 @@
-theme: jekyll-theme-tactile
-markdown: kramdown
-kramdown:
-  input: GFM
