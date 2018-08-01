@@ -80,6 +80,10 @@ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorM
 </script>
 ```
 
+效果如下：
+
+$$\sum_{i=0}^3 \frac{1}{(1+r)^{15+i}}$$
+
 # Star
 
 若您觉得本文有帮助，请给我的 [github仓库](https://github.com/Freefighter/Freefighter.github.io) 点个 **star** 吧！
