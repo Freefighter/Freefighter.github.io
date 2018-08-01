@@ -72,17 +72,19 @@ git push origin master
 
 这一点主要参考了[这篇博客](https://wanguolin.github.io/mathmatics_rending/)。
 
-简单来说就是在 _layouts\post.html 中加入：
+简单来说就是在 _includes\head.html 中加入：
 
 ```
 <script type="text/javascript"
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 ```
 
 效果如下：
 
-$$\sum_{i=0}^3 \frac{1}{(1+r)^{15+i}}$$
+$$
+    \sum_{i=0}^3 \frac{1}{(1+r)^{15+i}}
+$$
 
 # Star
 
