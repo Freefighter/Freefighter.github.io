@@ -63,13 +63,13 @@ jekyll s
 
 另外，用初始模板本地调试时，会产生一些不影响运行的小错误，我的仓库中已经进行了相应的修正。成因和修正方法如下：
 
-1. 执行 jekyll s 指令运行服务器时报 "Liquid Warning: Liquid syntax error :unexpected character { in "tag\[1\].size" > {{site.featured_condition_size}}..."
+- 执行 jekyll s 指令运行服务器时报 "Liquid Warning: Liquid syntax error :unexpected character { in "tag\[1\].size" > {{site.featured_condition_size}}..."
 
-这是 Jekyll 的语法问题，在使用模板中的标签库时不需要再加双大括号表示变量。直接打开出错的 html 文件将双大括号去掉就行了。详情可见[ StackOverflow 上的讨论](https://stackoverflow.com/questions/39688902/liquid-warning-liquid-syntax-error-unexpected-character-when-i-jekyll-serve)。
+> 这是 Jekyll 的语法问题，在使用模板中的标签库时不需要再加双大括号表示变量。直接打开出错的 html 文件将双大括号去掉就行了。详情可见[ StackOverflow 上的讨论](https://stackoverflow.com/questions/39688902/liquid-warning-liquid-syntax-error-unexpected-character-when-i-jekyll-serve)。
 
-2. 点击文章列表时跳转到 404 页面。
+- 点击文章列表时跳转到 404 页面。
 
-这可能是 Windows 平台上的问题，主要的产生原因是 Jekyll 没能解析中文文件名。解决方式是修改 Ruby 的配置文件，具体可以参考[这篇博客](https://blog.csdn.net/yinaoxiong/article/details/54025482)。
+> 这可能是 Windows 平台上的问题，主要的产生原因是 Jekyll 没能解析中文文件名。解决方式是修改 Ruby 的配置文件，具体可以参考[这篇博客](https://blog.csdn.net/yinaoxiong/article/details/54025482)。
 
 
 ### 提交相应的修改到 Github
