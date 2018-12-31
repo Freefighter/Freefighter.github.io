@@ -152,7 +152,7 @@ tags:
 
 ## Day 7
 
-> To take the airplane in Pittsburgh and save some budget, I ordered a Greyhound night bus. Something interesting happened however... I never thought that that the bus would went back to last stop because of lack of fuel >~< Finally I stayed on the bus for 8 hours, really tired. 
+> To take the airplane in Pittsburgh and save some time, I ordered a Greyhound night bus. However, something interesting happened... I never thought that that the bus would went back to last stop because of lack of fuel >~< Finally I stayed on the bus for 8 hours, really tired. 
 
 ![](/img/post/penn/c_20181230_094347.jpg)
 
