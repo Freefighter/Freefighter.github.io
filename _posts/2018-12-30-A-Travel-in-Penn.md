@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      A Travel in Penn
+title:      A Trip in Pennsylvania
 subtitle:   Pittsburgh -> State College -> Philadelphia -> Washington
 date:       2018-12-30
 author:     Yifan
