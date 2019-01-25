@@ -4,7 +4,7 @@ title:      Github Pages 个人主页的配置
 subtitle:   关于本地调试与数学公式支持
 date:       2018-08-01
 author:     Yifan
-header-img: img/post/bg-coffee.jpeg
+header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:
     - Github
