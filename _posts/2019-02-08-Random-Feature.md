@@ -88,5 +88,5 @@ And we can rewrite a kernel function depending only on the L1 distance between p
 
 the distribution p could be set as, $p ( \delta ) = \delta \ddot { k } ( \delta )$, which is guarenteed by the lemma 1 in this paper.
 
-Random maps for separable multivariate shift-invariant kernels of the form $k(x − y) = \prod _ { m = 1 } ^ { d } k _ { m } \left( \left| x ^ { m } - y ^ { m } \right| \right)$, can also utilize this method.
+Random maps for separable multivariate shift-invariant kernels of the form $k(x − y) = \prod _ { m = 1 } ^ { d } k _ { m } ( | x ^ { m } - y ^ { m } | )$, can also utilize this method.
 
