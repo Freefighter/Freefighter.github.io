@@ -27,7 +27,7 @@ Rewrite k(x, y) as an expectation over a certain probability space, and hence we
 
 ## Method: Random Fourier Features
 
-Some kernels depend only on $\Delta = |x-y|$, for example, Gaussian kernel, 
+Some kernels depend only on $\Delta = abs(x-y)$, for example, Gaussian kernel, 
 
 $$
 e ^ { - \frac { \| \Delta \| _ { 2 } ^ { 2 } } { 2 } }
