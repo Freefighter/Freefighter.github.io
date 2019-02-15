@@ -27,7 +27,11 @@ Rewrite k(x, y) as an expectation over a certain probability space, and hence we
 
 ## Method: Random Fourier Features
 
-Some kernels depend only on $\Delta = |x-y|$, for example, Gaussian kernel, $e ^ { - \frac { \| \Delta \| _ { 2 } ^ { 2 } } { 2 } }$
+Some kernels depend only on $\Delta = |x-y|$, for example, Gaussian kernel, 
+
+$$
+e ^ { - \frac { \| \Delta \| _ { 2 } ^ { 2 } } { 2 } }
+$$
 
 There is a theorem by Bochner: A continuous kernel $k ( \mathrm { x } , \mathrm { y } ) = k ( \mathrm { x } - \mathrm { y } )$ on $\mathcal { R } ^ { d }$ is positive definite if and only if $k ( \delta )$ is the Fourier transform of a **non-negative measure**.
 
@@ -76,7 +80,9 @@ $$
 
 ### First try to approximate a special "hat" kernel
 
-$k _ { h a t } ( x , y ; \delta ) = \max \left( 0,1 - \frac { | x - y | } { \delta } \right)$
+$$
+k _ { h a t } ( x , y ; \delta ) = \max ( 0, 1 - \frac { | x - y | } { \delta } )
+$$
 
 Partition the real number line with a grid of pitch δ, and shift this grid randomly by an amount u drawn uniformly at random from [0,δ]. This grid partitions the real number line into intervals [u + nδ,u + (n + 1)δ] for all integers n.
 
@@ -84,9 +90,15 @@ Partition the real number line with a grid of pitch δ, and shift this grid rand
 
 And we can rewrite a kernel function depending only on the L1 distance between pairs of points,
 
+$$
 \int _ { 0 } ^ { \infty } k _ { h a t } ( x , y ; \delta ) p ( \delta ) d \delta
+$$
 
 the distribution p could be set as, $p ( \delta ) = \delta \ddot { k } ( \delta )$, which is guarenteed by the lemma 1 in this paper.
 
-Random maps for separable multivariate shift-invariant kernels of the form $k(x − y) = \prod _ { m = 1 } ^ { d } k _ { m } ( | x ^ { m } - y ^ { m } | )$, can also utilize this method.
+Random maps for separable multivariate shift-invariant kernels of the form can also utilize this method.
+
+$$
+k(x − y) = \prod _ { m = 1 } ^ { d } k _ { m } ( | x ^ { m } - y ^ { m } | )
+$$
 
